@@ -90,29 +90,7 @@ android {
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
-//////////////////////////////////////////////////////////////
 
-### Figma Design Link
-
-[LDESK 3.0 Design](https://www.figma.com/design/4lLmcGAZzD0SG0UucAfCfB/LDESK-3.0?node-id=6-2063&p=f&t=OePhROTvGSQirOPT-0)
-
-//////////////////////////////////////////////////////////////
-
-### Clear Cache and Session Data in React Native
-
-```js
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import { useEffect } from 'react';
-
-useEffect(() => {
-  const clearStorage = async () => {
-    await AsyncStorage.clear();
-    console.log('AsyncStorage cleared!');
-  };
-
-  clearStorage();
-}, []);
-```
 
 //////////////////////////////////////////////////////////////
 
